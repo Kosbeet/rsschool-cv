@@ -21,13 +21,12 @@ a {
 
 .container {
   width: 1440px;
-  height: 90%;
   margin: 0 auto;
   background-color: #473b3b;
+  padding: 20px;
 }
 
 .header {
-  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -76,8 +75,8 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  padding: 10px;
   gap: 5px;
+  padding: 50px 0;
 }
 
 .section {
@@ -139,4 +138,21 @@ a {
 
 .contacts {
   grid-row: 3 / span 2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.footer__img {
+  height: 40px;
+  width: auto;
+}
+
+.footer__year, 
+.footer__author {
+  color: #f8f0ed;
 }
