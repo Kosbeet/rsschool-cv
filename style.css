@@ -24,3 +24,30 @@ a {
   height: 90%;
   margin: 0 auto;
 }
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 0 15px;
+}
+
+.navigation-list-item {
+  cursor: pointer;
+  padding: 10px;
+}
