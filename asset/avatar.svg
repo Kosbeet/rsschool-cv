@@ -1,0 +1,8 @@
+<svg width="256" height="256" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Аватар‑плейсхолдер">
+  <!-- Круг‑рамка: только обводка, фон прозрачный -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#bdbdbd" stroke-width="4"/>
+  <!-- Силуэт головы -->
+  <circle cx="32" cy="24" r="10" fill="#bdbdbd"/>
+  <!-- Силуэт плеч -->
+  <path d="M16 50 a16 16 0 0 1 32 0 Z" fill="#bdbdbd"/>
+</svg>
